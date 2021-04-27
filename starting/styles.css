@@ -1,22 +1,37 @@
-#color_1{
-    background-color: #0d4202;
-    height: 100px;
-    width: 100px;
-}
-
-#color_2{
-    background-color: #0e447a;
-    height: 100px;
-    width: 100px;
-}
-
-#color_3{
-    background-color: #a7300c;
-    height: 100px;
-    width: 100px;
-}
+/* Header */
 
 h1{
     color:green;
     background-color: black;
 }
+
+/* Color Examples */
+
+#color_1, #color_2, #color_3, #color_4{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    color:white;
+    text-align: center;
+}
+
+#color_1{
+    background-color: #0d4202;
+
+}
+
+#color_2{
+    background-color: #0e447a;
+}
+
+#color_3{
+    background-color: #a7300c;
+}
+
+#color_4{
+    background-color: #d5d813;
+    color: black;
+}
+
+/* Font examples */
+
