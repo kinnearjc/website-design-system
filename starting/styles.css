@@ -489,26 +489,33 @@ h3{
     margin: 10px;
     padding: 10px;
     width: 1500px;
+    text-align: center;
 }
 
-.textStyle_section h3{
-    text-align: left;
+.center_ul{
+    text-align: center;
 }
 
-.textStyle_section h1{
+.center_ul > ul {
+    display: inline-block;
+  }
+
+
+.textStyle_section #textStyle_1 h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 60px;
 }
 
-.textStyle_section h2{
+.textStyle_section #textStyle_2 h2{
     font-family: 'Zen Dots', cursive;
     font-weight: 400;
     font-size: 40px;
 }
 
-.textStyle_section p{
+.textStyle_section #textStyle_3 p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
 }
+
