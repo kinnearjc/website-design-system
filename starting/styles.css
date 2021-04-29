@@ -407,12 +407,19 @@ h3{
 
 /* Color Examples */
 
-#color_1, #color_2, #color_3, #color_4{
+.color_Section{
+  border: 1px solid black;
+}
+
+#color_1, #color_2, #color_3, #color_4{ 
+    margin: 10px;
+    padding: 10px;
     height: 300px;
     width: 300px;
     display: inline-block;
     color:white;
     text-align: center;
+    border: 1px solid black;
 }
 
 #color_1{
@@ -436,16 +443,16 @@ h3{
 /* Font examples */
 .font_section{
     border: 1px solid black;
-    width: 1400px;
-    text-align: center;
+    
 }
 
 
 #font_1, #font_2, #font_3{
     border: 1px solid black;
     margin: 10px;
-    padding: 5px;
-    width: 550px;
+    padding: 10px;
+    height: 175px;
+    width: 450px;
     text-align: center;
     display: inline-block;
 }
@@ -488,7 +495,7 @@ h3{
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
-    width: 1500px;
+    width: 1000px;
     text-align: center;
 }
 
